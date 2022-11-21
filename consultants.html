@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="consultants.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/628c8d2499.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body class="hero-anime">	
+	<div class="navigation-wrap bg-light start-header start-style">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-md navbar-light">
+					
+						<a class="navbar-brand" href="index.html"><img src="https://i0.wp.com/voila.expert/wp-content/uploads/2022/05/Logo_Color-e1656688721642.webp?w=500&ssl=1" alt=""></a>	
+						
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						
+						<div class="collapse navbar-collapse" id="navbarSupportedContent" style = "display: flex; justify-content:center; align-items:center;">
+							<ul class="navbar-nav ml-auto py-4 py-md-0" >
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="index.html">Home</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="#">How It Works</a>
+								</li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="#">Features</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Insights</a>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="recommendedexperts.html">Recommended Experts</a>
+										<a class="dropdown-item" href="recommendedexperts.html#topexperts">Top Rated Experts</a>
+										<a class="dropdown-item" href="recommendedexperts.html#invoice">Invoice</a>
+									</div>
+								</li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="#">FAQs</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Consultants</a>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="consultants.html#bookings">Manage Bookings</a>
+										<a class="dropdown-item" href="consultants.html#reviews">Reviews</a>
+										<a class="dropdown-item" href="consultants.html#clients">Clients</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<button class="btn btn-primary" style = "margin-right:10px">Our Story</button>
+                        <button class="btn btn-secondary">Register</button>
+					</nav>		
+				</div>
+			</div>
+		</div>
+	</div>
+    
+    <div class="Rest">
+
+        <div class="cont">
+            <p>
+                Manage your <ins tabindex="0">bookings</ins> and handle  <ins tabindex="0">reviews</ins> to grow as a consultant with Voila.
+              </p>
+        </div>
+
+        <div class="event-schedule-area-two bg-color pad100" style = "padding-top: 100px; padding-bottom: 100px;" id = "bookings">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center">
+                            <div class="title-text">
+                                <h1>Event Schedule</h1>
+                            </div>
+                            <p style = "padding-bottom: 100px; font-size: 20px;">
+                                View your events and the clients you have to meet. All info in one place.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- /.col end-->
+                </div>
+                <!-- row end-->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="nav custom-tab" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active show" id="home-taThursday" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Mon</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Tue</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Wed</a>
+                            </li>
+                            <li class="nav-item d-none d-lg-block">
+                                <a class="nav-link" id="sunday-tab" data-toggle="tab" href="#sunday" role="tab" aria-controls="sunday" aria-selected="false">Thur</a>
+                            </li>
+                            <li class="nav-item mr-0 d-none d-lg-block">
+                                <a class="nav-link" id="monday-tab" data-toggle="tab" href="#monday" role="tab" aria-controls="monday" aria-selected="false">Fri</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade active show" id="home" role="tabpanel">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center" scope="col">Date</th>
+                                                <th scope="col">Client</th>
+                                                <th scope="col">Details</th>
+                                                <th scope="col">Link</th>
+                                                <th class="text-center" scope="col">More Info</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="inner-box">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <span>16</span>
+                                                        <p>Novembar</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-img">
+                                                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">Harman Kardon</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="#">Aslan Lingker</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">Inspire</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span>05:35 AM - 08:00 AM 2h 25'</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>https://meet.google.com</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary" href="#">Read More</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="inner-box">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <span>20</span>
+                                                        <p>Novembar</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-img">
+                                                        <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">Toni Duggan</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="#">Aslan Lingker</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">Inspire</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span>05:35 AM - 08:00 AM 2h 25'</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>https://meet.google.com</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary" href="#">Read More</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="inner-box border-bottom-0">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <span>18</span>
+                                                        <p>Novembar</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-img">
+                                                        <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">Billal Hossain</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="#">Aslan Lingker</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">Inspire</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span>05:35 AM - 08:00 AM 2h 25'</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>https://meet.google.com</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary" href="#">Read More</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Date</th>
+                                                <th scope="col">Speakers</th>
+                                                <th scope="col">Session</th>
+                                                <th scope="col">Venue</th>
+                                                <th scope="col">Venue</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="inner-box">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <span>16</span>
+                                                        <p>Novembar</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-img">
+                                                        <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">Toni Duggan</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="#">Aslan Lingker</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">Inspire</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span>05:35 AM - 08:00 AM 2h 25'</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>https://meet.google.com</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary" href="#">Read More</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="inner-box">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <span>16</span>
+                                                        <p>Novembar</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-img">
+                                                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">Harman Kardon</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="#">Aslan Lingker</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">Inspire</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span>05:35 AM - 08:00 AM 2h 25'</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>https://meet.google.com</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary" href="#">Read More</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="inner-box border-bottom-0">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <span>16</span>
+                                                        <p>Novembar</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-img">
+                                                        <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">Billal Hossain</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="#">Aslan Lingker</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">Inspire</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span>05:35 AM - 08:00 AM 2h 25'</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>https://meet.google.com</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary" href="#">Read More</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Date</th>
+                                                <th scope="col">Speakers</th>
+                                                <th scope="col">Session</th>
+                                                <th scope="col">Venue</th>
+                                                <th scope="col">Venue</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="inner-box">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <span>16</span>
+                                                        <p>Novembar</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-img">
+                                                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">Harman Kardon</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="#">Aslan Lingker</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">Inspire</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span>05:35 AM - 08:00 AM 2h 25'</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>https://meet.google.com</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary" href="#">Read More</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="inner-box">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <span>16</span>
+                                                        <p>Novembar</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-img">
+                                                        <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">Billal Hossain</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="#">Aslan Lingker</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">Inspire</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span>05:35 AM - 08:00 AM 2h 25'</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>https://meet.google.com</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary" href="#">Read More</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="inner-box border-bottom-0">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <span>16</span>
+                                                        <p>Novembar</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-img">
+                                                        <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">Toni Duggan</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="#">Aslan Lingker</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">Inspire</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span>05:35 AM - 08:00 AM 2h 25'</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>https://meet.google.com</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary" href="#">Read More</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="sunday" role="tabpanel" aria-labelledby="sunday-tab">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Date</th>
+                                                <th scope="col">Speakers</th>
+                                                <th scope="col">Session</th>
+                                                <th scope="col">Venue</th>
+                                                <th scope="col">Venue</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="inner-box">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <span>16</span>
+                                                        <p>Novembar</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-img">
+                                                        <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">Toni Duggan</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="#">Aslan Lingker</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">Inspire</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span>05:35 AM - 08:00 AM 2h 25'</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>https://meet.google.com</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary" href="#">Read More</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="inner-box">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <span>16</span>
+                                                        <p>Novembar</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-img">
+                                                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">Harman Kardon</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="#">Aslan Lingker</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">Inspire</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span>05:35 AM - 08:00 AM 2h 25'</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>https://meet.google.com</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary" href="#">Read More</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="inner-box border-bottom-0">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <span>16</span>
+                                                        <p>Novembar</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-img">
+                                                        <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">Billal Hossain</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="#">Aslan Lingker</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">Inspire</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span>05:35 AM - 08:00 AM 2h 25'</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>https://meet.google.com</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary" href="#">Read More</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="monday" role="tabpanel" aria-labelledby="monday-tab">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Date</th>
+                                                <th scope="col">Speakers</th>
+                                                <th scope="col">Session</th>
+                                                <th scope="col">Venue</th>
+                                                <th scope="col">Venue</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="inner-box">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <span>16</span>
+                                                        <p>Novembar</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-img">
+                                                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">Harman Kardon</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="#">Aslan Lingker</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">Inspire</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span>05:35 AM - 08:00 AM 2h 25'</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>https://meet.google.com</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary" href="#">Read More</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="inner-box">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <span>18</span>
+                                                        <p>Novembar</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-img">
+                                                        <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">Toni Duggan</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="#">Aslan Lingker</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">Inspire</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span>05:35 AM - 08:00 AM 2h 25'</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>https://meet.google.com</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary" href="#">Read More</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="inner-box border-bottom-0">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <span>20</span>
+                                                        <p>Novembar</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-img">
+                                                        <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">Billal Hossain</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="#">Aslan Lingker</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">Inspire</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span>05:35 AM - 08:00 AM 2h 25'</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>https://meet.google.com</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary" href="#">Read More</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="primary-btn text-center">
+                            <a href="#" class="btn btn-primary">Download Schedule</a>
+                        </div>
+                    </div>
+                    <!-- /col end-->
+                </div>
+                <!-- /row end-->
+            </div>
+        </div>
+        
+
+        <section class="section-medium section-arrow--bottom-center section-arrow-primary-color bg-primary" id = "reviews">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-white text-center">
+                        <h2 class="section-title "> Your Reviews</h2>
+                        <p class="section-sub-title">
+                            See what your clients have said about you.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-primary t-bordered">
+            <div class="container">
+                <div class="row testimonial-three testimonial-three--col-three">
+                    <div class="col-md-4 testimonial-three-col">
+                        <div class="testimonial-inner">
+                            <div class="testimonial-image" itemprop="image">
+                                <img width="180" height="180" src="https://bootdey.com/img/Content/avatar/avatar1.png">
+                            </div>
+                            <div class="testimonial-content">
+                                <p>
+                                    Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+                                </p>
+                            </div>
+                            <div class="testimonial-meta">
+                                <strong class="testimonial-name" itemprop="name">Anna Vandana</strong>
+                                <span class="testimonial-job-title" itemprop="jobTitle">CEO</span> – <a class="testimonial-link" href="#" >Media Wiki</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4 testimonial-three-col">
+                        <div class="testimonial-inner">
+                            <div class="testimonial-image" itemprop="image">
+                                <img width="180" height="180" src="https://bootdey.com/img/Content/avatar/avatar2.png">
+                            </div>
+        
+                            <div class="testimonial-content">
+                                <p>
+                                    In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                                </p>
+                            </div>
+        
+                            <div class="testimonial-meta">
+                                <strong class="testimonial-name" itemprop="name">Anna Vandana</strong>
+                                <span class="testimonial-job-title" itemprop="jobTitle">CEO</span> – <a class="testimonial-link" href="#" >Media Wiki</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4 testimonial-three-col">
+                        <div class="testimonial-inner">
+                            <div class="testimonial-image" itemprop="image">
+                                <img width="180" height="180" src="https://bootdey.com/img/Content/avatar/avatar3.png">
+                            </div>
+                            <div class="testimonial-content">
+                                <p>
+                                    Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+                                </p>
+                            </div>
+                            <div class="testimonial-meta">
+                                <strong class="testimonial-name" itemprop="name">Anna Vandana</strong>
+                                <span class="testimonial-job-title" itemprop="jobTitle">CEO</span> – <a class="testimonial-link" href="#" >Media Wiki</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4 testimonial-three-col">
+                        <div class="testimonial-inner">
+                            <div class="testimonial-image" itemprop="image">
+                                <img width="180" height="180" src="https://bootdey.com/img/Content/avatar/avatar4.png">
+                            </div>
+        
+                            <div class="testimonial-content">
+                                <p>
+                                    In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                                </p>
+                            </div>
+        
+                            <div class="testimonial-meta">
+                                <strong class="testimonial-name" itemprop="name">Anna Vandana</strong>
+                                <span class="testimonial-job-title" itemprop="jobTitle">CEO</span> – <a class="testimonial-link" href="#" >Media Wiki</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4 testimonial-three-col">
+                        <div class="testimonial-inner">
+                            <div class="testimonial-image" itemprop="image">
+                                <img width="180" height="180" src="https://bootdey.com/img/Content/avatar/avatar5.png">
+                            </div>
+                            <div class="testimonial-content">
+                                <p>
+                                    Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+                                </p>
+                            </div>
+                            <div class="testimonial-meta">
+                                <strong class="testimonial-name" itemprop="name">Anna Vandana</strong>
+                                <span class="testimonial-job-title" itemprop="jobTitle">CEO</span> – <a class="testimonial-link" href="#">Media Wiki</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4 testimonial-three-col">
+                        <div class="testimonial-inner">
+                            <div class="testimonial-image" itemprop="image">
+                                <img width="180" height="180" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+                            </div>
+        
+                            <div class="testimonial-content">
+                                <p>
+                                    In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                                </p>
+                            </div>
+        
+                            <div class="testimonial-meta">
+                                <strong class="testimonial-name" itemprop="name">Anna Vandana</strong>
+                                <span class="testimonial-job-title" itemprop="jobTitle">CEO</span> – <a class="testimonial-link" href="#" >Media Wiki</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="row" style = "background : #eee; padding-top: 100px;" id = "clients">
+            <div class="col-lg-12">
+                <div class="section-title text-center">
+                    <div class="title-text">
+                        <h1>Your Past Clients</h1>
+                    </div>
+                    <p style = "padding-bottom: 100px; font-size: 20px;">
+                        See Data about your past clients.
+                    </p>
+                </div>
+            </div>
+            <!-- /.col end-->
+        </div>
+
+        <div class="page-content page-container" id="page-content" style = "background : #eee;">
+            <div class="padding">
+               <div class="row">
+                  <div class="col-sm-12">
+                      
+                    <div class="container-fluid d-flex justify-content-center">
+                     <div class="list list-row card" id="sortable" data-sortable-id="0" aria-dropeffect="move">
+                        <div class="list-item" data-id="13" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false" style="">
+                           <div><a href="#" data-abc="true"><span class="w-40 avatar gd-primary">P</span></a></div>
+                           <div class="flex">
+                              <a href="#" class="item-author text-color" data-abc="true">Patrick Linod</a>
+                              <div class="item-except text-muted text-sm h-1x">For what reason would it be advisable for me to think about business content?</div>
+                           </div>
+                           <div class="no-wrap">
+                              <div class="item-date text-muted text-sm d-none d-md-block">3 weeks ago</div>
+                           </div>
+                           <div>
+                              <div class="item-action dropdown">
+                                 <a href="#" data-toggle="dropdown" class="text-muted" data-abc="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
+                                       <circle cx="12" cy="12" r="1"></circle>
+                                       <circle cx="12" cy="5" r="1"></circle>
+                                       <circle cx="12" cy="19" r="1"></circle>
+                                    </svg>
+                                 </a>
+                                 <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
+                                    <a class="dropdown-item" href="#" data-abc="true">See detail </a><a class="dropdown-item download" data-abc="true">Download </a><a class="dropdown-item edit" data-abc="true">Edit</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item trash" data-abc="true">Delete item</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="list-item" data-id="9" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false">
+                           <div><a href="#" data-abc="true"><span class="w-40 avatar gd-info"><img src="https://img.icons8.com/bubbles/24/000000/user.png" alt="."></span></a></div>
+                           <div class="flex">
+                              <a href="#" class="item-author text-color" data-abc="true">Steven Hmpire</a>
+                              <div class="item-except text-muted text-sm h-1x">Build a progressive web app using jQuery</div>
+                           </div>
+                           <div class="no-wrap">
+                              <div class="item-date text-muted text-sm d-none d-md-block">2 days ago</div>
+                           </div>
+                           <div>
+                              <div class="item-action dropdown">
+                                 <a href="#" data-toggle="dropdown" class="text-muted" data-abc="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
+                                       <circle cx="12" cy="12" r="1"></circle>
+                                       <circle cx="12" cy="5" r="1"></circle>
+                                       <circle cx="12" cy="19" r="1"></circle>
+                                    </svg>
+                                 </a>
+                                 <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
+                                    <a class="dropdown-item" href="#" data-abc="true">See detail </a><a class="dropdown-item download" data-abc="true">Download </a><a class="dropdown-item edit" data-abc="true">Edit</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item trash" data-abc="true">Delete item</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="list-item" data-id="17" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false" style="">
+                           <div><a href="#" data-abc="true"><span class="w-40 avatar gd-warning">A</span></a></div>
+                           <div class="flex">
+                              <a href="#" class="item-author text-color" data-abc="true">Alan musk</a>
+                              <div class="item-except text-muted text-sm h-1x">it be advisable for me to think about business content?</div>
+                           </div>
+                           <div class="no-wrap">
+                              <div class="item-date text-muted text-sm d-none d-md-block">13/12 18</div>
+                           </div>
+                           <div>
+                              <div class="item-action dropdown">
+                                 <a href="#" data-toggle="dropdown" class="text-muted" data-abc="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
+                                       <circle cx="12" cy="12" r="1"></circle>
+                                       <circle cx="12" cy="5" r="1"></circle>
+                                       <circle cx="12" cy="19" r="1"></circle>
+                                    </svg>
+                                 </a>
+                                 <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
+                                    <a class="dropdown-item" href="#" data-abc="true">See detail </a><a class="dropdown-item download" data-abc="true">Download </a><a class="dropdown-item edit" data-abc="true">Edit</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item trash" data-abc="true">Delete item</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="list-item" data-id="8" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false">
+                           <div><a href="#" data-abc="true"><span class="w-40 avatar gd-success"><img src="https://img.icons8.com/doodle/24/000000/user-male.png" alt="."></span></a></div>
+                           <div class="flex">
+                              <a href="#" class="item-author text-color" data-abc="true">Lawrence Telon</a>
+                              <div class="item-except text-muted text-sm h-1x">For what reason would it be advisable for me to think</div>
+                           </div>
+                           <div class="no-wrap">
+                              <div class="item-date text-muted text-sm d-none d-md-block">02/11 18</div>
+                           </div>
+                           <div>
+                              <div class="item-action dropdown">
+                                 <a href="#" data-toggle="dropdown" class="text-muted" data-abc="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
+                                       <circle cx="12" cy="12" r="1"></circle>
+                                       <circle cx="12" cy="5" r="1"></circle>
+                                       <circle cx="12" cy="19" r="1"></circle>
+                                    </svg>
+                                 </a>
+                                 <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
+                                    <a class="dropdown-item" href="#" data-abc="true">See detail </a><a class="dropdown-item download" data-abc="true">Download </a><a class="dropdown-item edit" data-abc="true">Edit</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item trash" data-abc="true">Delete item</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="list-item" data-id="10" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false" style="">
+                           <div><a href="#" data-abc="true"><span class="w-40 avatar gd-danger"><img src="https://img.icons8.com/color/16/000000/administrator-male.png" alt="."></span></a></div>
+                           <div class="flex">
+                              <a href="#" class="item-author text-color" data-abc="true">Stuart Clark</a>
+                              <div class="item-except text-muted text-sm h-1x">For what reason would, i think about business content?</div>
+                           </div>
+                           <div class="no-wrap">
+                              <div class="item-date text-muted text-sm d-none d-md-block">1 day ago</div>
+                           </div>
+                           <div>
+                              <div class="item-action dropdown">
+                                 <a href="#" data-toggle="dropdown" class="text-muted" data-abc="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
+                                       <circle cx="12" cy="12" r="1"></circle>
+                                       <circle cx="12" cy="5" r="1"></circle>
+                                       <circle cx="12" cy="19" r="1"></circle>
+                                    </svg>
+                                 </a>
+                                 <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
+                                    <a class="dropdown-item" href="#" data-abc="true">See detail </a><a class="dropdown-item download" data-abc="true">Download </a><a class="dropdown-item edit" data-abc="true">Edit</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item trash" data-abc="true">Delete item</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="list-item" data-id="3" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false">
+                           <div><a href="#" data-abc="true"><span class="w-40 avatar gd-primary"><img src="https://img.icons8.com/bubbles/16/000000/administrator-male.png" alt="."></span></a></div>
+                           <div class="flex">
+                              <a href="#" class="item-author text-color" data-abc="true">Jordan Stephens</a>
+                              <div class="item-except text-muted text-sm h-1x">For what reason would it be advisable for me to think about business</div>
+                           </div>
+                           <div class="no-wrap">
+                              <div class="item-date text-muted text-sm d-none d-md-block">1 hour ago</div>
+                           </div>
+                           <div>
+                              <div class="item-action dropdown">
+                                 <a href="#" data-toggle="dropdown" class="text-muted" data-abc="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
+                                       <circle cx="12" cy="12" r="1"></circle>
+                                       <circle cx="12" cy="5" r="1"></circle>
+                                       <circle cx="12" cy="19" r="1"></circle>
+                                    </svg>
+                                 </a>
+                                 <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
+                                    <a class="dropdown-item" href="#" data-abc="true">See detail </a><a class="dropdown-item download" data-abc="true">Download </a><a class="dropdown-item edit" data-abc="true">Edit</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item trash" data-abc="true">Delete item</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                 </div>     
+               </div>  
+            </div>
+         </div>
+       
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
